@@ -1,0 +1,4 @@
+PASS missing message defaults restored on startup
+PASS custom existing prefix preserved
+Removed before restart: delivery-pending, items-issued
+After restart: both restored; prefix unchanged

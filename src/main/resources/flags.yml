@@ -1,0 +1,1325 @@
+defaults:
+  build:
+    state: DENY
+    audience: NON_MEMBERS
+  interact:
+    state: DENY
+    audience: NON_MEMBERS
+  block-break:
+    state: DENY
+    audience: NON_MEMBERS
+  block-place:
+    state: DENY
+    audience: NON_MEMBERS
+  use:
+    state: DENY
+    audience: NON_MEMBERS
+  fishing-rod:
+    state: DENY
+    audience: NON_MEMBERS
+  wind-charge:
+    state: DENY
+    audience: NON_MEMBERS
+  potion-splash:
+    state: DENY
+    audience: NON_MEMBERS
+  damage-animals:
+    state: DENY
+    audience: NON_MEMBERS
+  damage-mobs:
+    state: DENY
+    audience: NON_MEMBERS
+  damage-villagers:
+    state: DENY
+    audience: NON_MEMBERS
+  chest-access:
+    state: DENY
+    audience: NON_MEMBERS
+  villager-trading:
+    state: DENY
+    audience: NON_MEMBERS
+  ride:
+    state: DENY
+    audience: NON_MEMBERS
+  pvp:
+    state: DENY
+    audience: NON_MEMBERS
+  sleep:
+    state: DENY
+    audience: NON_MEMBERS
+  tnt:
+    state: DENY
+    audience: NON_MEMBERS
+  vehicle-place:
+    state: DENY
+    audience: NON_MEMBERS
+  vehicle-destroy:
+    state: DENY
+    audience: NON_MEMBERS
+  vehicle-use:
+    state: DENY
+    audience: NON_MEMBERS
+  lighter:
+    state: DENY
+    audience: NON_MEMBERS
+  block-trampling:
+    state: DENY
+    audience: NON_MEMBERS
+  frosted-ice-form:
+    state: DENY
+    audience: NON_MEMBERS
+  item-frame-rotation:
+    state: DENY
+    audience: NON_MEMBERS
+  use-anvil:
+    state: DENY
+    audience: NON_MEMBERS
+  firework-damage:
+    state: DENY
+    audience: NON_MEMBERS
+  mob-damage:
+    state: DENY
+    audience: NON_MEMBERS
+  enderpearl:
+    state: DENY
+    audience: NON_MEMBERS
+  chorus-fruit-teleport:
+    state: DENY
+    audience: NON_MEMBERS
+  pistons-out:
+    state: DENY
+    audience: ALL
+  use-portals:
+    state: DENY
+    audience: NON_MEMBERS
+  fly:
+    state: DENY
+    audience: NON_MEMBERS
+  creeper-explosion:
+    state: DENY
+    audience: ALL
+  enderdragon-block-damage:
+    state: DENY
+    audience: ALL
+  ghast-fireball:
+    state: DENY
+    audience: ALL
+  other-explosion:
+    state: DENY
+    audience: ALL
+  fire-spread:
+    state: DENY
+    audience: ALL
+  enderman-grief:
+    state: DENY
+    audience: ALL
+  ravager-grief:
+    state: DENY
+    audience: ALL
+  wither-damage:
+    state: DENY
+    audience: ALL
+  lava-fire:
+    state: DENY
+    audience: ALL
+  mob-spawning:
+    state: ALLOW
+    audience: ALL
+  snowman-trails:
+    state: ALLOW
+    audience: ALL
+  water-flow:
+    state: ALLOW
+    audience: ALL
+  lava-flow:
+    state: ALLOW
+    audience: ALL
+  snow-fall:
+    state: ALLOW
+    audience: ALL
+  snow-melt:
+    state: ALLOW
+    audience: ALL
+  ice-form:
+    state: ALLOW
+    audience: ALL
+  ice-melt:
+    state: ALLOW
+    audience: ALL
+  frosted-ice-melt:
+    state: ALLOW
+    audience: ALL
+  mushroom-growth:
+    state: ALLOW
+    audience: ALL
+  leaf-decay:
+    state: ALLOW
+    audience: ALL
+  grass-growth:
+    state: ALLOW
+    audience: ALL
+  rock-growth:
+    state: ALLOW
+    audience: ALL
+  sculk-growth:
+    state: ALLOW
+    audience: ALL
+  crop-growth:
+    state: ALLOW
+    audience: ALL
+  soil-dry:
+    state: ALLOW
+    audience: ALL
+  coral-fade:
+    state: ALLOW
+    audience: ALL
+  copper-fade:
+    state: ALLOW
+    audience: ALL
+  pistons:
+    state: ALLOW
+    audience: ALL
+  fall-damage:
+    state: ALLOW
+    audience: ALL
+  entry:
+    state: ALLOW
+    audience: ALL
+  exit:
+    state: ALLOW
+    audience: ALL
+flags:
+  build:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Abuild'
+        lore: &id001
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Abuild'
+        lore: *id001
+        glow: false
+  interact:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ainteract'
+        lore: &id002
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ainteract'
+        lore: *id002
+        glow: false
+  block-break:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-break'
+        lore: &id003
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-break'
+        lore: *id003
+        glow: false
+  block-place:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-place'
+        lore: &id004
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-place'
+        lore: *id004
+        glow: false
+  use:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause'
+        lore: &id005
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause'
+        lore: *id005
+        glow: false
+  fishing-rod:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afishing-rod'
+        lore: &id006
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afishing-rod'
+        lore: *id006
+        glow: false
+  wind-charge:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Awind-charge'
+        lore: &id007
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Awind-charge'
+        lore: *id007
+        glow: false
+  potion-splash:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Apotion-splash'
+        lore: &id008
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Apotion-splash'
+        lore: *id008
+        glow: false
+  damage-animals:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-animals'
+        lore: &id009
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-animals'
+        lore: *id009
+        glow: false
+  damage-mobs:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-mobs'
+        lore: &id010
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-mobs'
+        lore: *id010
+        glow: false
+  damage-villagers:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-villagers'
+        lore: &id011
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Adamage-villagers'
+        lore: *id011
+        glow: false
+  chest-access:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Achest-access'
+        lore: &id012
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Achest-access'
+        lore: *id012
+        glow: false
+  villager-trading:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Avillager-trading'
+        lore: &id013
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Avillager-trading'
+        lore: *id013
+        glow: false
+  ride:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aride'
+        lore: &id014
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aride'
+        lore: *id014
+        glow: false
+  pvp:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Apvp'
+        lore: &id015
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Apvp'
+        lore: *id015
+        glow: false
+  sleep:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asleep'
+        lore: &id016
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asleep'
+        lore: *id016
+        glow: false
+  tnt:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Atnt'
+        lore: &id017
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Atnt'
+        lore: *id017
+        glow: false
+  vehicle-place:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-place'
+        lore: &id018
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-place'
+        lore: *id018
+        glow: false
+  vehicle-destroy:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-destroy'
+        lore: &id019
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-destroy'
+        lore: *id019
+        glow: false
+  vehicle-use:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-use'
+        lore: &id020
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Avehicle-use'
+        lore: *id020
+        glow: false
+  lighter:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Alighter'
+        lore: &id021
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Alighter'
+        lore: *id021
+        glow: false
+  block-trampling:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-trampling'
+        lore: &id022
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ablock-trampling'
+        lore: *id022
+        glow: false
+  frosted-ice-form:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afrosted-ice-form'
+        lore: &id023
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afrosted-ice-form'
+        lore: *id023
+        glow: false
+  item-frame-rotation:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aitem-frame-rotation'
+        lore: &id024
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aitem-frame-rotation'
+        lore: *id024
+        glow: false
+  use-anvil:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause-anvil'
+        lore: &id025
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause-anvil'
+        lore: *id025
+        glow: false
+  firework-damage:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afirework-damage'
+        lore: &id026
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afirework-damage'
+        lore: *id026
+        glow: false
+  mob-damage:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Amob-damage'
+        lore: &id027
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Amob-damage'
+        lore: *id027
+        glow: false
+  enderpearl:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderpearl'
+        lore: &id028
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderpearl'
+        lore: *id028
+        glow: false
+  chorus-fruit-teleport:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Achorus-fruit-teleport'
+        lore: &id029
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Achorus-fruit-teleport'
+        lore: *id029
+        glow: false
+  pistons-out:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Apistons-out'
+        lore: &id030
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Apistons-out'
+        lore: *id030
+        glow: false
+  use-portals:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause-portals'
+        lore: &id031
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Ause-portals'
+        lore: *id031
+        glow: false
+  fly:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afly'
+        lore: &id032
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afly'
+        lore: *id032
+        glow: false
+  creeper-explosion:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Acreeper-explosion'
+        lore: &id033
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Acreeper-explosion'
+        lore: *id033
+        glow: false
+  enderdragon-block-damage:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderdragon-block-damage'
+        lore: &id034
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderdragon-block-damage'
+        lore: *id034
+        glow: false
+  ghast-fireball:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aghast-fireball'
+        lore: &id035
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aghast-fireball'
+        lore: *id035
+        glow: false
+  other-explosion:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aother-explosion'
+        lore: &id036
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aother-explosion'
+        lore: *id036
+        glow: false
+  fire-spread:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afire-spread'
+        lore: &id037
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afire-spread'
+        lore: *id037
+        glow: false
+  enderman-grief:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderman-grief'
+        lore: &id038
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aenderman-grief'
+        lore: *id038
+        glow: false
+  ravager-grief:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aravager-grief'
+        lore: &id039
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aravager-grief'
+        lore: *id039
+        glow: false
+  wither-damage:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Awither-damage'
+        lore: &id040
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Awither-damage'
+        lore: *id040
+        glow: false
+  lava-fire:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Alava-fire'
+        lore: &id041
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Alava-fire'
+        lore: *id041
+        glow: false
+  mob-spawning:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Amob-spawning'
+        lore: &id042
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Amob-spawning'
+        lore: *id042
+        glow: false
+  snowman-trails:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnowman-trails'
+        lore: &id043
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnowman-trails'
+        lore: *id043
+        glow: false
+  water-flow:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Awater-flow'
+        lore: &id044
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Awater-flow'
+        lore: *id044
+        glow: false
+  lava-flow:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Alava-flow'
+        lore: &id045
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Alava-flow'
+        lore: *id045
+        glow: false
+  snow-fall:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnow-fall'
+        lore: &id046
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnow-fall'
+        lore: *id046
+        glow: false
+  snow-melt:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnow-melt'
+        lore: &id047
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asnow-melt'
+        lore: *id047
+        glow: false
+  ice-form:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aice-form'
+        lore: &id048
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aice-form'
+        lore: *id048
+        glow: false
+  ice-melt:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aice-melt'
+        lore: &id049
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aice-melt'
+        lore: *id049
+        glow: false
+  frosted-ice-melt:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afrosted-ice-melt'
+        lore: &id050
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afrosted-ice-melt'
+        lore: *id050
+        glow: false
+  mushroom-growth:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Amushroom-growth'
+        lore: &id051
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Amushroom-growth'
+        lore: *id051
+        glow: false
+  leaf-decay:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aleaf-decay'
+        lore: &id052
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aleaf-decay'
+        lore: *id052
+        glow: false
+  grass-growth:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Agrass-growth'
+        lore: &id053
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Agrass-growth'
+        lore: *id053
+        glow: false
+  rock-growth:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Arock-growth'
+        lore: &id054
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Arock-growth'
+        lore: *id054
+        glow: false
+  sculk-growth:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asculk-growth'
+        lore: &id055
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asculk-growth'
+        lore: *id055
+        glow: false
+  crop-growth:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Acrop-growth'
+        lore: &id056
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Acrop-growth'
+        lore: *id056
+        glow: false
+  soil-dry:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Asoil-dry'
+        lore: &id057
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Asoil-dry'
+        lore: *id057
+        glow: false
+  coral-fade:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Acoral-fade'
+        lore: &id058
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Acoral-fade'
+        lore: *id058
+        glow: false
+  copper-fade:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Acopper-fade'
+        lore: &id059
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Acopper-fade'
+        lore: *id059
+        glow: false
+  pistons:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Apistons'
+        lore: &id060
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Apistons'
+        lore: *id060
+        glow: false
+  fall-damage:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Afall-damage'
+        lore: &id061
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Afall-damage'
+        lore: *id061
+        glow: false
+  entry:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aentry'
+        lore: &id062
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aentry'
+        lore: *id062
+        glow: false
+  exit:
+    gui-display:
+      enabled:
+        material: COMPARATOR
+        name: '&#FFD77Aexit'
+        lore: &id063
+        - ''
+        - ' &8│ &7Estado: {status}'
+        - ' &8│ &7Audiencia: &f{audience}'
+        - ''
+        - '&eIzquierdo: estado'
+        - '&eDerecho: audiencia'
+        glow: true
+      disabled:
+        material: COMPARATOR
+        name: '&#FFD77Aexit'
+        lore: *id063
+        glow: false

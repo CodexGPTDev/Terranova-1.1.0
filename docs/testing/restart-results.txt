@@ -1,0 +1,7 @@
+PASS 6
+restart restores city level and bounds
+restart restores crystals and stored items
+restart restores members flags subzones shield preferences
+restart has no permanent raid override
+restart preserves pending full inventory core
+claim delivers pending core once after restart

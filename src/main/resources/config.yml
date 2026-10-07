@@ -1,0 +1,82 @@
+config-version: 1
+debug: false
+enabled-worlds: []
+
+database:
+  type: SQLITE
+  mysql:
+    host: localhost
+    port: 3306
+    database: terranova
+    username: terranova
+    password: 'CHANGE_ME'
+    use-ssl: true
+
+limits:
+  per-player: 2
+  per-world: 2
+names:
+  allow-colors: false
+members:
+  can-upgrade: false
+
+subzones:
+  minimum-city-level: 1
+  price-per-block: 2
+  currency: vault
+  city-owner-access: true
+  selection-particle: END_ROD
+
+crystals:
+  remove-confirmation: true
+  install-sound: BLOCK_AMETHYST_BLOCK_CHIME
+  remove-sound: BLOCK_AMETHYST_BLOCK_BREAK
+
+performance:
+  max-index-chunks: 4096
+  max-hit-entries: 50000
+
+border:
+  duration: 15s
+  particle: END_ROD
+  corner-height: 8
+  render-distance: 64
+  max-particles-per-player: 180
+  adapt-to-terrain: true
+
+core-effects:
+  activation-distance: 32
+  particles:
+    enabled: true
+    type: END_ROD
+    interval: 20
+    count: 3
+    radius: 1.2
+
+holograms:
+  enabled: true
+  alignment: CENTER
+  height: 1.3
+  line-spacing: 0.25
+  view-distance: 32
+  lines:
+    - '&#66E6B5{city}'
+    - '&7Nivel: &f{level}/{max-level}'
+    - '&7Radio: &f{radius}'
+    - '&7Miembros: &f{members}/{max-members}'
+    - ''
+    - '&eClic derecho para abrir el menú'
+
+feedback:
+  created:
+    title: '&#66E6B5¡CIUDAD CREADA!'
+    subtitle: '&7{city}'
+    sound: BLOCK_BEACON_ACTIVATE
+    particle: END_ROD
+    particle-count: 35
+  upgraded:
+    title: '&#55FF55¡CIUDAD MEJORADA!'
+    subtitle: '&7Nivel {old-level} &8→ &a{new-level}'
+    sound: UI_TOAST_CHALLENGE_COMPLETE
+    particle: TOTEM_OF_UNDYING
+    particle-count: 45

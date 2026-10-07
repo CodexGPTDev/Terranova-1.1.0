@@ -1,0 +1,118 @@
+name: Terranova
+version: ${version}
+main: dev.marco035xd.terranova.TerranovaPlugin
+api-version: '1.21'
+authors:
+- Marco035xd
+description: Ciudades con núcleos, cristales, subzonas, escudos y eventos configurables.
+softdepend:
+- Vault
+- ExcellentEconomy
+- PlaceholderAPI
+- AuraSkills
+- AdvancedEnchantments
+commands:
+  city:
+    description: Administra ciudades y subzonas
+    aliases:
+    - cities
+    - terranova
+    - tn
+    usage: /city help
+permissions:
+  terranova.create:
+    default: true
+  terranova.raid.steal:
+    default: true
+  terranova.admin:
+    default: op
+  terranova.bypass:
+    default: false
+  terranova.protections.limit.unlimited:
+    default: false
+  terranova.protections.limit.world.unlimited:
+    default: false
+  terranova.command.help:
+    default: true
+  terranova.command.claim:
+    default: true
+  terranova.command.menu:
+    default: true
+  terranova.command.list:
+    default: true
+  terranova.command.border:
+    default: true
+  terranova.command.hologram:
+    default: true
+  terranova.command.rename:
+    default: true
+  terranova.command.tag:
+    default: true
+  terranova.command.add:
+    default: true
+  terranova.command.remove:
+    default: true
+  terranova.command.flags:
+    default: true
+  terranova.command.flag:
+    default: true
+  terranova.command.userflags:
+    default: true
+  terranova.command.userflag:
+    default: true
+  terranova.command.upgrade:
+    default: true
+  terranova.command.crystals:
+    default: true
+  terranova.command.storage:
+    default: true
+  terranova.command.shield:
+    default: true
+  terranova.command.delete:
+    default: true
+  terranova.command.subzone:
+    default: true
+  terranova.command.subzone.wand:
+    default: true
+  terranova.command.subzone.cancel:
+    default: true
+  terranova.command.subzone.list:
+    default: true
+  terranova.command.subzone.menu:
+    default: true
+  terranova.command.subzone.view:
+    default: true
+  terranova.command.subzone.create:
+    default: true
+  terranova.command.subzone.delete:
+    default: true
+  terranova.command.subzone.sell:
+    default: true
+  terranova.command.subzone.unsell:
+    default: true
+  terranova.command.subzone.buy:
+    default: true
+  terranova.command.subzone.flags:
+    default: true
+  terranova.command.subzone.add:
+    default: true
+  terranova.command.subzone.remove:
+    default: true
+  terranova.command.subzone.userflag:
+    default: true
+  terranova.command.give:
+    default: op
+  terranova.command.crystal:
+    default: op
+  terranova.command.crystal.give:
+    default: op
+  terranova.command.event:
+    default: op
+  terranova.command.event.start:
+    default: op
+  terranova.command.event.stop:
+    default: op
+  terranova.command.reload:
+    default: op
+  terranova.command.admin:
+    default: op

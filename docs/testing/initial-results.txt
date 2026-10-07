@@ -1,0 +1,32 @@
+PASS 31
+physical core creates protected city
+core hologram uses real text display entities
+main GUI and locked crystal states
+upgrade refreshes radius slots storage and hologram
+guardian installs atomically and gives two effects
+leaving removes owned potion effects
+crystal GUI double click shift and locked drag are cancelled
+upgrade level three
+raid-only modular lockdown installs inactive
+raid activates bossbar overrides and lockdown
+rapid raid hit does not increment twice
+raid blacklist excludes bedrock
+shield ignores raid overrides and prevents theft
+removing shield returns temporary raid behavior
+controlled theft removes crystal and queues item durably
+raid termination restores exact original flags
+subzone volume and selection create inside city
+escaping city and overlapping subzone selections rejected
+members individual flags storage shield survive snapshot
+public API exposes immutable city data
+give classic delivers a signed core to inventory
+create classic from granted core
+prepare classic stored items and crystal
+delete classic returns core crystal and stored items once
+give fortress delivers a signed core to inventory
+create fortress from granted core
+prepare fortress stored items and crystal
+delete fortress returns core crystal and stored items once
+create full inventory return probe
+delete with full inventory retains a durable core return
+authenticated objects survive a namespace rename

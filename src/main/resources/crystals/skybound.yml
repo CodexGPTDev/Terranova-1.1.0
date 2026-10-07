@@ -1,0 +1,22 @@
+id: skybound
+enabled: true
+item:
+  material: FEATHER
+  name: '&#78CEFFCristal Celeste'
+  glow: true
+  lore: ['', ' &8│ &7Vuelo para los miembros dentro de la ciudad.', '', ' &8│ &7Nivel requerido: &f{required-level}']
+required-city-level: 3
+activation-mode: NON_RAID
+incompatible-with: [bastion]
+effects:
+  flight:
+    audience: MEMBERS
+    enabled: true
+  potion-effects:
+    audience: MEMBERS
+    list:
+      - type: NIGHT_VISION
+        level: 1
+        ambient: true
+        particles: false
+        icon: true

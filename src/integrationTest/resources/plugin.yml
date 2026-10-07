@@ -1,0 +1,6 @@
+name: TerranovaAudit
+version: 1.1.0
+main: dev.marco035xd.terranova.audit.AuditPlugin
+api-version: '1.21'
+depend: [Terranova]
+description: Automated test fixture; never install on a production server.

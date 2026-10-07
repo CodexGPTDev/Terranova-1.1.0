@@ -1,0 +1,18 @@
+[04:40:45] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Azul Systems, Inc. Zulu25.36+205-CRaC-CA) on Linux 6.18.44 (amd64)
+[04:40:45] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-132-ver/26.2@19ebc4a (2026-10-06T18:55:54Z) for Minecraft 26.2
+[04:40:51] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:40:51] [Server thread/INFO]: [Terranova] Loading server plugin Terranova v1.1.0
+[04:40:51] [Server thread/INFO]: [TerranovaAudit] Loading server plugin TerranovaAudit v1.1.0
+[04:40:52] [Server thread/INFO]: [Terranova] Enabling Terranova v1.1.0
+[04:40:52] [Server thread/INFO]: [Terranova] Terranova 1.1.0: 1 ciudades, 6 cristales, 3 eventos
+[04:40:52] [Server thread/INFO]: [TerranovaAudit] Enabling TerranovaAudit v1.1.0
+[04:40:52] [Server thread/INFO]: Done (7.134s)! For help, type "help"
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS restart restores city level and bounds
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS restart restores crystals and stored items
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS restart restores members flags subzones shield preferences
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS restart has no permanent raid override
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS restart preserves pending full inventory core
+[04:40:53] [Server thread/INFO]: [TerranovaAudit] PASS claim delivers pending core once after restart
+[04:40:54] [Server thread/INFO]: [TerranovaAudit] AUDIT COMPLETE 6 passed
+[04:41:55] [Server thread/INFO]: [TerranovaAudit] Disabling TerranovaAudit v1.1.0
+[04:41:55] [Server thread/INFO]: [Terranova] Disabling Terranova v1.1.0

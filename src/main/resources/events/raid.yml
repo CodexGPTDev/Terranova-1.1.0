@@ -1,0 +1,50 @@
+id: raid
+type: RAID
+enabled: true
+priority: 0
+duration: 30m
+bossbar:
+  enabled: true
+  title: '&#FF5555RAID &8│ &f{remaining}'
+  color: RED
+  overlay: PROGRESS
+breaking:
+  enabled: true
+  mode: BLACKLIST
+  blocks: [BEDROCK, BARRIER, END_PORTAL_FRAME]
+  drop-items: true
+  hit-cooldown-millis: 250
+  block-hit-expiration: 30s
+  feedback:
+    actionbar: true
+    sound: BLOCK_STONE_HIT
+crystals:
+  stealable: true
+  steal-mode: GUI
+  confirmation: true
+  remove-after-steal: true
+  drop-to-attacker: true
+forced-flags:
+  block-break: {state: ALLOW, audience: NON_MEMBERS}
+  block-place: {state: DENY, audience: NON_MEMBERS}
+  interact: {state: DENY, audience: NON_MEMBERS}
+  use: {state: DENY, audience: NON_MEMBERS}
+  chest-access: {state: ALLOW, audience: NON_MEMBERS}
+  damage-animals: {state: ALLOW, audience: NON_MEMBERS}
+  damage-mobs: {state: ALLOW, audience: NON_MEMBERS}
+  damage-villagers: {state: DENY, audience: NON_MEMBERS}
+  pvp: {state: ALLOW, audience: NON_MEMBERS}
+  tnt: {state: DENY, audience: NON_MEMBERS}
+  lighter: {state: DENY, audience: NON_MEMBERS}
+messages:
+  prefix: '&8[&cRaid&8] '
+  started: ['{prefix}&c¡Ha comenzado el RAID!', '&7Las reglas cambian temporalmente; los escudos conservan la protección.']
+  ended: ['{prefix}&aEl RAID ha finalizado.', '&7Las protecciones han vuelto a la normalidad.']
+feedback:
+  started:
+    title: '&#FF5555¡RAID INICIADO!'
+    subtitle: '&7Duración: {duration}'
+    sound: EVENT_RAID_HORN
+  ended:
+    actionbar: '&aTu ciudad conserva sus reglas originales.'
+    sound: BLOCK_BEACON_DEACTIVATE

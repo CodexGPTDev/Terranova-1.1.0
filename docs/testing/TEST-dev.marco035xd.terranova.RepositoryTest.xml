@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.marco035xd.terranova.RepositoryTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-10-07T20:40:17.824Z" hostname="c34cf9aea4dc" time="0.179">
+  <properties/>
+  <testcase name="deletedCityReturnsReusableCoreAndSurvivesRestart()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.129"/>
+  <testcase name="removalAndReturnAreOneDurableTransaction()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.008"/>
+  <testcase name="duplicateCrystalTokenRollsBackCityMutationAndDelivery()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.006"/>
+  <testcase name="stateAndGlobalEventSurviveRepositoryRestart()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.008"/>
+  <testcase name="failedDeletionKeepsCityAndDoesNotReturnAnotherCore()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.006"/>
+  <testcase name="staleRevisionCannotOverwriteAnotherCommittedOperation()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.004"/>
+  <testcase name="duplicateInGrantBatchRollsBackIdentitiesAndDeliveries()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.007"/>
+  <testcase name="salePaymentCommitsWithCityAndUncertainPaymentIsQuarantinedOnRestart()" classname="dev.marco035xd.terranova.RepositoryTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

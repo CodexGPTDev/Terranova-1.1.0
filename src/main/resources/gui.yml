@@ -1,0 +1,106 @@
+decoration:
+  material: GRAY_STAINED_GLASS_PANE
+  name: ' '
+  lore: []
+main:
+  title: '&8Ciudad &8│ {city}'
+  buttons:
+    info:
+      slot: 4
+      material: BEACON
+      name: '&#66E6B5{city}'
+      glow: true
+      lore:
+        - ''
+        - ' &8│ &7Propietario: &f{owner}'
+        - ' &8│ &7Nivel: &a{level}/{max-level}'
+        - ' &8│ &7Radio: &f{radius} bloques'
+        - ' &8│ &7Miembros: &f{members}/{max-members}'
+        - ''
+        - ' &8│ &7Cristales: &d{installed-crystals}/{crystal-slots}'
+        - ' &8│ &7Subzonas: &b{subzones}/{max-subzones}'
+        - ''
+    levels:
+      slot: 20
+      material: EXPERIENCE_BOTTLE
+      name: '&#8AE68AMejorar ciudad'
+      lore: ['', ' &8│ &7Amplía tu territorio y sus capacidades.', '', '&eClic para ver los niveles']
+    members:
+      slot: 21
+      material: PLAYER_HEAD
+      name: '&#78CEFFMiembros y permisos'
+      lore: ['', ' &8│ &7Gestiona el acceso de tus jugadores.', '', '&eClic para abrir']
+    flags:
+      slot: 22
+      material: COMPARATOR
+      name: '&#FFD77AReglas de protección'
+      lore: ['', ' &8│ &7Estado y audiencia de cada acción.', '', '&eClic para configurar']
+    crystals:
+      slot: 23
+      material: AMETHYST_SHARD
+      name: '&#C86BFFCristales'
+      glow: true
+      lore: ['', ' &8│ &7Slots: &d{installed-crystals}/{crystal-slots}', ' &8│ &7Instala efectos y defensas modulares.', '', '&eClic para abrir']
+    storage:
+      slot: 24
+      material: CHEST
+      name: '&#FFB86BAlmacén comunitario'
+      lore: ['', ' &8│ &7Filas: &f{storage-rows}', '', '&eClic para abrir']
+    subzones:
+      slot: 30
+      material: BLAZE_ROD
+      name: '&#78CEFFSubzonas y mercado'
+      lore: ['', ' &8│ &7Crea, administra y vende parcelas 3D.', '', '&eClic para abrir']
+    shields:
+      slot: 31
+      material: SHIELD
+      name: '&#8AE68AEscudos'
+      lore: ['', ' &8│ &7Conserva tus reglas durante los raids.', '', '&eClic para abrir']
+    border:
+      slot: 32
+      material: ENDER_EYE
+      name: '&#FFD77AVer límites'
+      lore: ['', ' &8│ &7Visualiza el borde mediante partículas.', '', '&eClic para mostrar']
+    rename:
+      slot: 38
+      material: NAME_TAG
+      name: '&fCambiar nombre'
+      lore: ['', '&eClic para escribir en privado']
+    hologram:
+      slot: 40
+      material: ARMOR_STAND
+      name: '&fMostrar / ocultar holograma'
+      lore: ['', '&eClic para cambiar']
+    delete:
+      slot: 42
+      material: LAVA_BUCKET
+      name: '&cEliminar ciudad'
+      lore: ['', ' &8│ &7Requiere confirmación.', '', '&eClic para revisar']
+levels:
+  title: '&8Mejoras &8│ {city}'
+crystals:
+  title: '&8Cristales &8│ {city}'
+  available:
+    material: LIME_STAINED_GLASS_PANE
+    name: '&aSlot de cristal disponible'
+    lore: ['', ' &8│ &7Slot: &f{slot}', '', '&7Haz clic o arrastra un cristal', '&7para instalarlo.']
+  locked:
+    material: PINK_STAINED_GLASS_PANE
+    name: '&cSlot de cristal bloqueado'
+    lore: ['', ' &8│ &7Slot: &f{slot}', '', '&7Mejora tu ciudad para', '&7desbloquear este slot.']
+flags:
+  title: '&8Reglas &8│ {city}'
+userflags:
+  title: '&8Permisos individuales &8│ {city}'
+members:
+  title: '&8Miembros &8│ {city}'
+storage:
+  title: '&8Almacén &8│ {city}'
+subzones:
+  title: '&8Subzonas &8│ {city}'
+subzone:
+  title: '&8Parcela &8│ {city}'
+shields:
+  title: '&8Escudos &8│ {city}'
+cities:
+  title: '&8Tus ciudades'

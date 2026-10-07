@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.marco035xd.terranova.GeometryTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-10-07T20:40:17.797Z" hostname="c34cf9aea4dc" time="0.024">
+  <properties/>
+  <testcase name="fullContainmentRejectsCrossWorldAndEscapingCorner()" classname="dev.marco035xd.terranova.GeometryTest" time="0.002"/>
+  <testcase name="volumeOverflowCannotTurnHugeSelectionIntoCheapPurchase()" classname="dev.marco035xd.terranova.GeometryTest" time="0.001"/>
+  <testcase name="sharedBoundaryIsOverlapButAdjacentBlocksAreNot()" classname="dev.marco035xd.terranova.GeometryTest" time="0.001"/>
+  <testcase name="indexHandlesNegativeChunksAndChangesAtomically()" classname="dev.marco035xd.terranova.GeometryTest" time="0.014"/>
+  <testcase name="selectionIsInclusiveAndOrderIndependent()" classname="dev.marco035xd.terranova.GeometryTest" time="0.001"/>
+  <testcase name="enormousRegionUsesBoundedFallbackAndStillBlocksOverlap()" classname="dev.marco035xd.terranova.GeometryTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

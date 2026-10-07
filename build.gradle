@@ -1,0 +1,48 @@
+buildscript {
+    repositories { mavenCentral() }
+    dependencies { classpath 'com.gradleup.shadow:shadow-gradle-plugin:9.4.0' }
+}
+plugins { id 'java' }
+apply plugin: 'com.gradleup.shadow'
+group = 'dev.marco035xd'
+version = '1.1.0'
+repositories {
+    mavenCentral()
+    maven { url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+    maven { url = 'https://repo.extendedclip.com/releases/' }
+}
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.21.11-R0.1-SNAPSHOT'
+    compileOnly 'me.clip:placeholderapi:2.11.7'
+    implementation 'org.xerial:sqlite-jdbc:3.51.1.0'
+    implementation 'com.mysql:mysql-connector-j:9.5.0'
+    implementation 'net.kyori:adventure-text-minimessage:4.25.0'
+    implementation 'net.kyori:adventure-text-serializer-legacy:4.25.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.13.4'
+    testImplementation 'org.spigotmc:spigot-api:1.21.11-R0.1-SNAPSHOT'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(25) } }
+tasks.withType(JavaCompile).configureEach { options.release = 21; options.encoding = 'UTF-8' }
+test { useJUnitPlatform() }
+processResources { filesMatching('plugin.yml') { expand(version: project.version) } }
+shadowJar {
+    archiveClassifier = ''
+    mergeServiceFiles()
+    relocate 'net.kyori', 'dev.marco035xd.terranova.lib.kyori'
+    exclude 'META-INF/*.SF', 'META-INF/*.DSA', 'META-INF/*.RSA'
+}
+jar { archiveClassifier = 'thin' }
+build.dependsOn shadowJar
+sourceSets {
+    integrationTest {
+        compileClasspath += sourceSets.main.output + configurations.compileClasspath
+        runtimeClasspath += sourceSets.main.output + configurations.runtimeClasspath
+    }
+}
+tasks.register('integrationJar', Jar) {
+    dependsOn integrationTestClasses
+    archiveBaseName = 'TerranovaAudit'
+    archiveClassifier = 'test-only'
+    from sourceSets.integrationTest.output
+}

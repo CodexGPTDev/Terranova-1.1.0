@@ -1,0 +1,11 @@
+id: guardian-30m
+enabled: true
+duration: 30m
+required-city-level: 1
+item:
+  material: SHIELD
+  name: '&#8AE68AEscudo Guardián'
+  glow: true
+  lore: ['', ' &8│ &7Duración: &f{duration}', ' &8│ &7Precio: &a500 monedas Vault', ' &8│ &7Bloquea cambios y robo durante raids.', '', '&eClic para comprar']
+cost:
+  vault: 500

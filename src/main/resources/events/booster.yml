@@ -1,0 +1,26 @@
+id: booster
+type: BOOSTER
+enabled: true
+priority: 0
+duration: 30m
+bossbar:
+  enabled: true
+  title: '&#8AE68ABOOSTER &8│ &f{remaining}'
+  color: GREEN
+  overlay: PROGRESS
+effects:
+  crop-growth:
+    audience: ALL
+    multiplier: 2.0
+aura-skills:
+  audience: MEMBERS
+  stacking-mode: HIGHEST
+  xp-multipliers:
+    - skills: [MINING, FARMING, FISHING]
+      multiplier: 2.0
+  mana-regeneration:
+    multiplier: 1.5
+messages:
+  prefix: '&8[&aBooster&8] '
+  started: ['{prefix}&a¡Bonificaciones activas dentro de las ciudades!']
+  ended: ['{prefix}&7El booster ha finalizado.']

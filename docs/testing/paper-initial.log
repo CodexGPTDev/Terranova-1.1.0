@@ -1,0 +1,43 @@
+[04:38:17] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.4.1+1-LTS; Azul Systems, Inc. Zulu25.36+205-CRaC-CA) on Linux 6.18.44 (amd64)
+[04:38:17] [ServerMain/INFO]: [bootstrap] Loading Paper 26.2-132-ver/26.2@19ebc4a (2026-10-06T18:55:54Z) for Minecraft 26.2
+[04:38:23] [Server thread/INFO]: Starting minecraft server version 26.2
+[04:38:23] [Server thread/INFO]: [Terranova] Loading server plugin Terranova v1.1.0
+[04:38:23] [Server thread/INFO]: [TerranovaAudit] Loading server plugin TerranovaAudit v1.1.0
+[04:38:24] [Server thread/INFO]: [Terranova] Enabling Terranova v1.1.0
+[04:38:24] [Server thread/INFO]: [Terranova] Terranova 1.1.0: 0 ciudades, 6 cristales, 3 eventos
+[04:38:24] [Server thread/INFO]: [TerranovaAudit] Enabling TerranovaAudit v1.1.0
+[04:38:24] [Server thread/INFO]: Done (7.597s)! For help, type "help"
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS physical core creates protected city
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS core hologram uses real text display entities
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS main GUI and locked crystal states
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS upgrade refreshes radius slots storage and hologram
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS guardian installs atomically and gives two effects
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS leaving removes owned potion effects
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS crystal GUI double click shift and locked drag are cancelled
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS upgrade level three
+[04:38:26] [Server thread/INFO]: [TerranovaAudit] PASS raid-only modular lockdown installs inactive
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS raid activates bossbar overrides and lockdown
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS rapid raid hit does not increment twice
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS raid blacklist excludes bedrock
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS shield ignores raid overrides and prevents theft
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS removing shield returns temporary raid behavior
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS controlled theft removes crystal and queues item durably
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS raid termination restores exact original flags
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS subzone volume and selection create inside city
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS escaping city and overlapping subzone selections rejected
+[04:38:27] [Server thread/INFO]: [TerranovaAudit] PASS members individual flags storage shield survive snapshot
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS public API exposes immutable city data
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS give classic delivers a signed core to inventory
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS create classic from granted core
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS prepare classic stored items and crystal
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS delete classic returns core crystal and stored items once
+[04:38:28] [Server thread/INFO]: [TerranovaAudit] PASS give fortress delivers a signed core to inventory
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS create fortress from granted core
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS prepare fortress stored items and crystal
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS delete fortress returns core crystal and stored items once
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS create full inventory return probe
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS delete with full inventory retains a durable core return
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] PASS authenticated objects survive a namespace rename
+[04:38:29] [Server thread/INFO]: [TerranovaAudit] AUDIT COMPLETE 31 passed
+[04:40:07] [Server thread/INFO]: [TerranovaAudit] Disabling TerranovaAudit v1.1.0
+[04:40:07] [Server thread/INFO]: [Terranova] Disabling Terranova v1.1.0

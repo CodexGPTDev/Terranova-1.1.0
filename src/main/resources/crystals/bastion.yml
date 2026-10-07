@@ -1,0 +1,14 @@
+id: bastion
+enabled: true
+item:
+  material: OBSIDIAN
+  name: '&#C86BFFCristal Bastión'
+  glow: true
+  lore: ['', ' &8│ &7Añade 3 golpes de resistencia al raid.', '', ' &8│ &7Nivel requerido: &f{required-level}']
+required-city-level: 3
+activation-mode: RAID_ONLY
+incompatible-with: [skybound]
+effects:
+  raid-resistance:
+    audience: ALL
+    additional-hits: 3

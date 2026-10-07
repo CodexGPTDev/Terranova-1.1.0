@@ -1,0 +1,29 @@
+id: guardian
+enabled: true
+item:
+  material: AMETHYST_SHARD
+  name: '&#C86BFFCristal Guardián'
+  glow: true
+  lore:
+    - ''
+    - ' &8│ &7Resistencia y regeneración para miembros.'
+    - ' &8│ &7Funciona dentro de la ciudad.'
+    - ''
+    - ' &8│ &7Nivel requerido: &f{required-level}'
+required-city-level: 2
+activation-mode: ALWAYS
+incompatible-with: []
+effects:
+  potion-effects:
+    audience: MEMBERS
+    list:
+      - type: RESISTANCE
+        level: 1
+        ambient: true
+        particles: true
+        icon: true
+      - type: REGENERATION
+        level: 1
+        ambient: true
+        particles: true
+        icon: true

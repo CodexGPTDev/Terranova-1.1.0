@@ -1,0 +1,31 @@
+id: raid-lockdown
+enabled: true
+item:
+  material: AMETHYST_SHARD
+  name: '&#FF5555Cristal de Bloqueo de Raid'
+  glow: true
+  lore: ['', ' &8│ &7Defensa activa durante raids.', ' &8│ &7Resistencia para miembros.', ' &8│ &7Bloquea perlas y encantamientos de externos.', '', ' &8│ &7Nivel requerido: &f{required-level}']
+required-city-level: 3
+activation-mode: RAID_ONLY
+incompatible-with: []
+effects:
+  potion-effects:
+    audience: MEMBERS
+    list:
+      - type: RESISTANCE
+        level: 1
+        ambient: true
+        particles: true
+        icon: true
+blocked-items:
+  audience: NON_MEMBERS
+  materials: [ENDER_PEARL]
+advanced-enchantments:
+  audience: NON_MEMBERS
+  denied: [TRENCH, TELEPATHY]
+aura-skills:
+  audience: MEMBERS
+  stacking-mode: MULTIPLY
+  xp-multipliers: []
+  mana-regeneration:
+    multiplier: 1.0

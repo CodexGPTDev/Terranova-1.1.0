@@ -1,0 +1,136 @@
+id: fortress
+enabled: true
+item:
+  material: CRYING_OBSIDIAN
+  name: '&#66E6B5Núcleo Fortress'
+  glow: true
+  lore:
+  - ''
+  - ' &8│ &7Colócalo para fundar una ciudad.'
+  - ' &8│ &7Haz clic derecho para administrarla.'
+  - ''
+levels:
+  1:
+    radius: 25
+    max-members: 2
+    chest-rows: 1
+    crystal-slots: 0
+    raid-block-hits: 3
+    max-subzones: 1
+    max-subzone-blocks: 1000
+    change-name: true
+    gui-display:
+      material: EXPERIENCE_BOTTLE
+      name: '&#8AE68ANivel {target-level}'
+      glow: false
+      lore:
+      - ''
+      - ' &8│ &7Radio: &f{current-radius} &7→ &a{target-radius}'
+      - ' &8│ &7Miembros: &f{current-members} &7→ &a{target-members}'
+      - ' &8│ &7Almacenamiento: &f{current-storage-rows} &7→ &a{target-storage-rows}'
+      - ' &8│ &7Cristales: &f{current-crystal-slots} &7→ &d{target-crystal-slots}'
+      - ' &8│ &7Resistencia: &f{current-raid-hits} &7→ &c{target-raid-hits}'
+      - ' &8│ &7Subzonas: &f{current-subzones} &7→ &b{target-subzones}'
+      - ' &8│ &7Volumen por subzona: &f{current-subzone-blocks} &7→ &b{target-subzone-blocks}'
+      - ''
+      - ' &8│ &7Costo: &a500 monedas &7+ &f2 diamantes'
+      - ''
+      - '&eClic para revisar la mejora'
+    upgrade-cost:
+      vault: 500
+      items:
+      - material: DIAMOND
+        amount: 2
+  2:
+    radius: 35
+    max-members: 3
+    chest-rows: 2
+    crystal-slots: 2
+    raid-block-hits: 5
+    max-subzones: 2
+    max-subzone-blocks: 2000
+    change-name: true
+    gui-display:
+      material: EXPERIENCE_BOTTLE
+      name: '&#8AE68ANivel {target-level}'
+      glow: false
+      lore:
+      - ''
+      - ' &8│ &7Radio: &f{current-radius} &7→ &a{target-radius}'
+      - ' &8│ &7Miembros: &f{current-members} &7→ &a{target-members}'
+      - ' &8│ &7Almacenamiento: &f{current-storage-rows} &7→ &a{target-storage-rows}'
+      - ' &8│ &7Cristales: &f{current-crystal-slots} &7→ &d{target-crystal-slots}'
+      - ' &8│ &7Resistencia: &f{current-raid-hits} &7→ &c{target-raid-hits}'
+      - ' &8│ &7Subzonas: &f{current-subzones} &7→ &b{target-subzones}'
+      - ' &8│ &7Volumen por subzona: &f{current-subzone-blocks} &7→ &b{target-subzone-blocks}'
+      - ''
+      - ' &8│ &7Costo: &a1000 monedas &7+ &f4 diamantes'
+      - ''
+      - '&eClic para revisar la mejora'
+    upgrade-cost:
+      vault: 1000
+      items:
+      - material: DIAMOND
+        amount: 4
+  3:
+    radius: 45
+    max-members: 4
+    chest-rows: 3
+    crystal-slots: 3
+    raid-block-hits: 7
+    max-subzones: 3
+    max-subzone-blocks: 3000
+    change-name: true
+    gui-display:
+      material: EXPERIENCE_BOTTLE
+      name: '&#8AE68ANivel {target-level}'
+      glow: false
+      lore:
+      - ''
+      - ' &8│ &7Radio: &f{current-radius} &7→ &a{target-radius}'
+      - ' &8│ &7Miembros: &f{current-members} &7→ &a{target-members}'
+      - ' &8│ &7Almacenamiento: &f{current-storage-rows} &7→ &a{target-storage-rows}'
+      - ' &8│ &7Cristales: &f{current-crystal-slots} &7→ &d{target-crystal-slots}'
+      - ' &8│ &7Resistencia: &f{current-raid-hits} &7→ &c{target-raid-hits}'
+      - ' &8│ &7Subzonas: &f{current-subzones} &7→ &b{target-subzones}'
+      - ' &8│ &7Volumen por subzona: &f{current-subzone-blocks} &7→ &b{target-subzone-blocks}'
+      - ''
+      - ' &8│ &7Costo: &a1500 monedas &7+ &f6 diamantes'
+      - ''
+      - '&eClic para revisar la mejora'
+    upgrade-cost:
+      vault: 1500
+      items:
+      - material: DIAMOND
+        amount: 6
+  4:
+    radius: 55
+    max-members: 5
+    chest-rows: 4
+    crystal-slots: 4
+    raid-block-hits: 9
+    max-subzones: 4
+    max-subzone-blocks: 4000
+    change-name: true
+    gui-display:
+      material: EXPERIENCE_BOTTLE
+      name: '&#8AE68ANivel {target-level}'
+      glow: false
+      lore:
+      - ''
+      - ' &8│ &7Radio: &f{current-radius} &7→ &a{target-radius}'
+      - ' &8│ &7Miembros: &f{current-members} &7→ &a{target-members}'
+      - ' &8│ &7Almacenamiento: &f{current-storage-rows} &7→ &a{target-storage-rows}'
+      - ' &8│ &7Cristales: &f{current-crystal-slots} &7→ &d{target-crystal-slots}'
+      - ' &8│ &7Resistencia: &f{current-raid-hits} &7→ &c{target-raid-hits}'
+      - ' &8│ &7Subzonas: &f{current-subzones} &7→ &b{target-subzones}'
+      - ' &8│ &7Volumen por subzona: &f{current-subzone-blocks} &7→ &b{target-subzone-blocks}'
+      - ''
+      - ' &8│ &7Costo: &a2000 monedas &7+ &f8 diamantes'
+      - ''
+      - '&eClic para revisar la mejora'
+    upgrade-cost:
+      vault: 2000
+      items:
+      - material: DIAMOND
+        amount: 8

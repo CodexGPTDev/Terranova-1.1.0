@@ -1,0 +1,14 @@
+id: harvest
+enabled: true
+item:
+  material: WHEAT
+  name: '&#8AE68ACristal de Cosecha'
+  glow: true
+  lore: ['', ' &8│ &7Acelera el crecimiento natural de cultivos.', '', ' &8│ &7Nivel requerido: &f{required-level}']
+required-city-level: 2
+activation-mode: ALWAYS
+incompatible-with: []
+effects:
+  crop-growth:
+    audience: ALL
+    multiplier: 2.0

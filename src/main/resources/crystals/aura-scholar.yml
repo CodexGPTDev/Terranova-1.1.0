@@ -1,0 +1,20 @@
+id: aura-scholar
+enabled: true
+item:
+  material: AMETHYST_SHARD
+  name: '&#B28DFFCristal de Sabiduría'
+  glow: true
+  lore: ['', ' &8│ &7Minería y agricultura: &ax2 XP', ' &8│ &7Pesca: &ax1.5 XP', ' &8│ &7Regeneración de maná: &ax1.5', '', ' &8│ &7Requiere AuraSkills y nivel {required-level}.']
+required-city-level: 3
+activation-mode: ALWAYS
+incompatible-with: []
+aura-skills:
+  audience: MEMBERS
+  stacking-mode: MULTIPLY
+  xp-multipliers:
+    - skills: [MINING, FARMING]
+      multiplier: 2.0
+    - skills: [FISHING]
+      multiplier: 1.5
+  mana-regeneration:
+    multiplier: 1.5

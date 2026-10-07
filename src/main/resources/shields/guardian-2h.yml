@@ -1,0 +1,14 @@
+id: guardian-2h
+enabled: true
+duration: 2h
+required-city-level: 2
+item:
+  material: SHIELD
+  name: '&#78CEFFEscudo Centinela'
+  glow: true
+  lore: ['', ' &8│ &7Duración: &f{duration}', ' &8│ &7Nivel requerido: &f{required-level}', ' &8│ &7Costo: &a1800 monedas y 4 diamantes', '', '&eClic para comprar']
+cost:
+  vault: 1800
+  items:
+    - material: DIAMOND
+      amount: 4
